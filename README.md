@@ -8,3 +8,8 @@ The following are some examples.
 చంద్రగుప్తమౌర్య  -->  'చం', 'ద్ర', 'గు', 'ప్త', 'మౌ', 'ర్య'
 
 రాముడు మంచి బాలుడు  -->  'రా', 'ము', 'డు', ' ', 'మం', 'చి', ' ', 'బా', 'లు', 'డు'
+
+-------------------------
+
+There are two different ways to segment a gunintham (consonant + vowel) which contains any one of this vowel modifier ('ఁ', 'ం', 'ః')
+
