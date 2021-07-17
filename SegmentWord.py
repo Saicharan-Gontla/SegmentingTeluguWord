@@ -1,9 +1,15 @@
+# mode = 1 considers the entire complex gunintham as a single letter
+# mode = 2 conisders the complex gunintham as two letters
+# These two modes are explained clearly with an example in the Readme file. Pls go through it if u have any doubts.
+
+
 class Segment:
     gunintham = ['ా', 'ి', 'ీ', 'ు', 'ూ', 'ృ', 'ౄ', 'ె', 'ే', 'ై', 'ొ', 'ో', 'ౌ', 'ఁ', 'ం', 'ః']
     achulu = ['అ', 'ఆ', 'ఇ', 'ఈ', 'ఉ', 'ఊ', 'ఋ', 'ౠ', 'ఎ', 'ఏ', 'ఐ', 'ఒ', 'ఓ', 'ఔ', 'అం', 'అః']
+    abnormal_gunintham = ['ఁ', 'ం', 'ః']
     ik = '్'
 
-    def extract(self,word):
+    def extract(self,word,mode = 1):
         lis = []
         state = "new"
 
@@ -11,6 +17,10 @@ class Segment:
 
             if (i==' '):
                 lis.append(i)
+                state = "new"
+            
+            if (i in self.abnormal_gunintham and mode==1):
+                lis[-1]+=i
                 state = "new"
             
             elif (state=="new"):
