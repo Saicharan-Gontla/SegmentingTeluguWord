@@ -11,5 +11,12 @@ The following are some examples.
 
 -------------------------
 
-There are two different ways to segment a gunintham (consonant + vowel) which contains any one of this vowel modifier ('ఁ', 'ం', 'ః')
+There are two different ways to segment a complex gunintham (consonant + vowel + vowel) which contains more than two vowel modifiers. First one is a normal vowel modifier and the second is one among these three ('ఁ', 'ం', 'ః'). Some of the examples are shown below.
+
+
+'కాం' --> 'క' + 'ా' + 'ం' 
+
+'క్రాం' -->  'క' + '్' + 'ర' + 'ా' + 'ం'
+
+There are two ways to segment these complex gunintham
 
