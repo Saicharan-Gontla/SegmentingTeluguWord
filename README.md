@@ -28,13 +28,3 @@ There are two ways to segment the Complex gunintham. one way is to consider the 
 | కాండౌన్  -->  'కాం', 'డౌ', 'న్' | కాండౌన్  -->  'కా', 'ం', 'డౌ', 'న్' |
   
 </center>
-
-<center>
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-</center>
