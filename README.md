@@ -20,8 +20,9 @@ A Complex gunintham (consonant + vowel + vowel) is a gunitham which contains mor
 
 There are two ways to segment the Complex gunintham. one way is to consider the entire complex gunintham as a single character and the other way is to consider the second gunintham ('ఁ', 'ం', 'ః') as a different character. Some of the examples are shown below.
 
-
+<center>
 | mode = 1 (first way) | mode = 2 (second way) |
 | :---: | :---: |
 | కుంతి  -->  'కుం', 'తి' | కుంతి  -->  'కు', 'ం', 'తి' |
 | కాండౌన్  -->  'కాం', 'డౌ', 'న్' | కాండౌన్  -->  'కా', 'ం', 'డౌ', 'న్' |
+</center>
